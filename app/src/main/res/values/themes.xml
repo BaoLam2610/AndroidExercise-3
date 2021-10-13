@@ -1,0 +1,180 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Exercise3" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="lato_light_italic_12sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/lato_lightitalic</item>
+    </style>
+
+    <style name="lato_regular_12sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_four</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="lato_regular_13sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="lato_regular_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="lato_light_10sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/pinkish_grey</item>
+        <item name="android:fontFamily">@font/lato_light</item>
+    </style>
+
+    <style name="lato_light_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/lato_light</item>
+    </style>
+
+    <style name="lato_light_22sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black_five</item>
+        <item name="android:fontFamily">@font/lato_light</item>
+    </style>
+
+    <style name="lato_black_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/lato_black</item>
+    </style>
+
+    -- raleway
+
+    <style name="raleway_medium_12sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="raleway_medium_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/greyish_brown_four</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="raleway_medium_15sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="raleway_medium_16sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_fourteen</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="raleway_regular_9sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/black_thirteen</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="raleway_regular_10sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="raleway_regular_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_six</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="raleway_regular_16sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_fourteen</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="raleway_black_12sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_twelve</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_16sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_18sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_20sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/brownish_grey_two</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_22sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/brownish_grey_two</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_28sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/greyish_brown_three</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_24sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black_app</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_black_40sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/black_app</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+    </style>
+
+    <style name="raleway_bold_14sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_three</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="raleway_light_italic_12sp" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_eight</item>
+        <item name="android:fontFamily">@font/raleway_lightitalic</item>
+    </style>
+</resources>
