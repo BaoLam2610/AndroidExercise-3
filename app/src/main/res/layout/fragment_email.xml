@@ -132,11 +132,11 @@
         android:text="RESEND EMAIL"
         android:textAppearance="@style/lato_black_14sp"
         android:textColor="@color/white_three"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/line_hor"
         app:layout_constraintEnd_toStartOf="@+id/line_end"
         app:layout_constraintStart_toStartOf="@+id/line_start"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="1" />
 
     <TextView
         android:id="@+id/tvSecond"
@@ -151,4 +151,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnResendEmail"
         app:layout_constraintVertical_bias="0" />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/line_hor"
+        app:layout_constraintGuide_percent="0.88"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
